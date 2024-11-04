@@ -11,7 +11,7 @@ public class order {
             this.orderId = "";
             this.customerName ="";
             this.productName = "";
-            this. quanity = "";
+            this.quanity = 0;
         }
 
         public Order(String orderId, String customerName, String productName, Integer quanity) { // consturctor with paramaters
